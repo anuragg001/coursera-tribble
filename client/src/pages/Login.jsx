@@ -85,7 +85,7 @@ const Login = () => {
         <TabsContent value="signup">
           <Card>
             <CardHeader>
-              <CardTitle>Signup</CardTitle>
+              <CardTitle>Sign up</CardTitle>
               <CardDescription>
                 Make changes to your account here. Click save when you're done.
               </CardDescription>
@@ -145,7 +145,7 @@ const Login = () => {
                     <>
                     <Loader2 className="mr-2 h-4 w-4 animate-spin"/>Please Wait ...
                     </>
-                  ): "signup"
+                  ): "Sign Up"
                 }
               </Button>
             </CardFooter>
