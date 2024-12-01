@@ -61,7 +61,7 @@ const Login = () => {
   };
   useEffect(()=>{
     if(registerIsSuccess || registerData){
-      toast.sucess(registerData.message || "Registered Successfully")
+      toast.success(registerData.message || "Registered Successfully")
     }
     if(registerError){
       toast.error(registerError.data.message || "Signup Failed")
